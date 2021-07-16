@@ -1,0 +1,44 @@
+
+#loc-search{
+    width:25%;
+    margin-inline: auto;
+    margin-top: 2rem;
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+}
+body{
+    background: linear-gradient(to right,#ff5f6d, #ffc371);
+    font: 1rem/1.3 "Roboto", sans-serif
+}
+#icon
+{
+    width:125px;
+    height:125px;
+}
+#weather-card
+{
+    margin:auto;
+    margin-top:2em;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:1em;
+    overflow: auto;
+    background-image: linear-gradient(to bottom, #9796f0,#fbc7d4);
+    color:white;
+}
+p{
+    font-size:1em;
+}
+#temp-value{
+    /* font-family: 'Bitter', serif; */
+ 
+    font-size:2em;
+}
+p,h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align:center;
+}
+h3,span{
+    margin-top:8px;
+    font-size:2em;
+}
