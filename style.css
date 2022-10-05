@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#body{
+min-height: 100vh;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+#playspace{
+display:grid;
+grid-template-columns: repeat(3,10vw);
+grid-template-rows: repeat(3,10vw);
+/* border:2px solid black; */
+
+}
+.boxes{
+    font:4rem roboto;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.boxes:hover{
+    background-color: rgb(194, 144, 194);
+}
+.box1,.box4,.box7,.box2,.box5,.box8{
+    border-right: 2px solid black;
+}
+.box4,.box5,.box6,.box7,.box8,.box9{
+    border-top: 2px solid black;
+}
+#resultspace{
+    font:52px roboto;
+    color:darkgrey;
+}
+#buttonspace{
+    display:grid;
+    grid-row: 1/3;
+    grid-template-rows: 20vh 10vh;
+    
+    grid-gap: 6vh;
+    
+
+}
